@@ -86,9 +86,9 @@
 
         sym {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND       &kp DOLLAR        &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR  &kp RPAR  &kp BACKSLASH
-&trans  &kp EQUAL        &kp COLON    &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp GRAVE                        &kp MINUS  &kp PLUS       &none         &kp LBKT  &kp RBKT  &kp PIPE
-&trans  &trans           &kp SEMI     &kp LESS_THAN   &kp GREATER_THAN  &kp TILDE                        &kp UNDER  &none          &none         &none     &none     &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND       &kp DOLLAR        &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR        &kp RPAR         &kp BACKSLASH
+&trans  &kp EQUAL        &kp COLON    &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp GRAVE                        &kp MINUS  &kp PLUS       &none         &kp LBKT        &kp RBKT         &kp PIPE
+&trans  &trans           &kp SEMI     &kp LESS_THAN   &kp GREATER_THAN  &kp TILDE                        &kp UNDER  &kp EQUAL      &none         &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
                          &trans       &trans          &trans            &mo 3        &kp HASH    &trans  &trans     &trans         &trans        &trans
             >;
 
